@@ -5,378 +5,289 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  }
+}
 
+body {
+  background-color: lightgray;
+  font-weight: normal;
+}
+nav {
+  width: 100%;
+}
 
-
-  body{
-    background-color: lightgray;
-    font-weight: normal;
-  } 
-  nav {
-   width:100%;
-   
-  }
- 
- nav > div{
- padding: 10px;  
- height: 40px;
- display: flex;
- justify-content: space-between;
- background-color: #fff;
-
-
-  
-};
+nav > div {
+  padding: 10px;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+}
 header {
   width: 100%;
-
- 
-  
 }
 .img_header {
   background: url(./images/london.jpg) center/cover;
-  position: relative;
-  height:600px;
-  
+
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-
-
 .nav_tabs {
-  width:900px;
-  height:200px;
-  position: absolute;
-  top: 25%;
-  left: 15%;
-  
- 
-  
-  background-color:#fff;
+  width: 900px;
+  height: 200px;
+  position: relative;
 
-  
-
-  
-
+  background-color: #fff;
 }
 .nav_tabs ul {
   list-style: none;
-  }
-  
-  .nav_tabs ul li {
-    float: left;
+}
 
-  }
-  .nav_tabs ul li h2 {
-    padding-top:25px;
-    padding-left: 35px;
-    height:30px;
-   
-   
-  }
-  .nav_tabs label {
-    width: 300px;
-    padding:10px;
-    background-color:#363b48;
-    display: block;
-    color:#fff;
-    cursor: pointer;
-    text-align: center;
-  
-
-
-  }
-  .rd_tabs:checked ~label{
-    background-color:#e54e43;
-  }
-  .rd_tabs {
-    display: none;
-  }
-  .content {
-  background-color:#fff;
+.nav_tabs ul li {
+  float: left;
+}
+.nav_tabs ul li h2 {
+  padding-top: 25px;
+  padding-left: 35px;
+  height: 30px;
+}
+.nav_tabs label {
+  width: 300px;
+  padding: 10px;
+  background-color: #363b48;
+  display: block;
+  color: #fff;
+  cursor: pointer;
+  text-align: center;
+}
+.rd_tabs:checked ~ label {
+  background-color: #e54e43;
+}
+.rd_tabs {
+  display: none;
+}
+.content {
+  background-color: #fff;
   display: none;
   position: absolute;
-  height:200px;
+  height: 200px;
   width: 900px;
-  left:0;
+  left: 0;
+}
+.rd_tabs:checked ~ .content {
+  display: block;
+}
+.content div {
+  padding: 20px;
+}
+.flight {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 80px;
+}
+.inp_from {
+  height: 200px;
+  width: 430px;
+}
+.inp_from label {
+  padding: 2px;
+  font-size: 12px;
+}
+.inp_from input {
+  width: 400px;
+  height: 30px;
+  margin-top: 8px;
+}
+.content button {
+  margin-left: 38px;
+  margin-top: 25px;
+}
 
+.flight label {
+  background-color: #fff;
+  color: black;
+  line-height: 0;
+  font-size: 12px;
+  text-align: left;
 
-  }
-  .rd_tabs:checked ~ .content{
-  display:block;
-  }
-  .content div  {
-    padding: 20px;
-    
-    
-  }
-  .flight{
-    display:flex;
-    flex-direction: row;
-    width:100%;
-    height: 80px;
+  width: 40px;
+}
 
-  }
-  .inp_from{
-    height:200px;
-    width: 430px;
-   
-   
+button {
+  height: 30px;
+  width: 140px;
+  background-color: #595a5e;
+  color: white;
+  margin-top: 30px;
+}
 
-  }
-  .inp_from  label  {
+.london {
+  width: 100%;
+  position: relative;
+}
 
-    padding: 2px;
-    font-size:12px;
-
-  }
-  .inp_from input {
-    width:400px;
-    height:30px;
-    margin-top:8px;
-    
-  }
-  .content button {
-    margin-left: 38px;
-    margin-top: 25px;
-    
-    
-  }
- 
-  .flight label{
-    background-color:#fff;
-    color:black;
-    line-height: 0;
-    font-size:12px;
-    text-align:left;
-   
-    width:40px;
-    
-  }
- 
-  button {
-    height:30px;
-    width:140px;
-    background-color : #595a5e;
-    color: white;
-    margin-top: 30px;
-    
-  }
-
-
- .london {
-   width: 100%;
-   position:relative;
- }
-   
-  
 main {
-    min-width: 250px;
-    max-width: 1100px;
-    margin: auto;
-    margin-bottom: 30px;
-    padding: 20px;
-    background-color:lightgray;
+  min-width: 250px;
+  max-width: 1100px;
+  margin: auto;
+  margin-bottom: 30px;
+  padding: 20px;
+  background-color: lightgray;
 }
 
 section div.cities {
   height: 500px;
   display: flex;
-  justify-content:space-between;
+  justify-content: space-between;
   padding: 10px;
- 
-
- 
-
-};
-
-div.cities2  {
-padding: 0px; 
 }
 
+div.cities2 {
+  padding: 0px;
+}
 
 div > img.cinqueterre {
   height: 480px;
   width: 500px;
-
- 
-  
-  
-
-  
 }
 
-div > img.cities2  {
+div > img.cities2 {
   height: 230px;
-   width: 235px ;
-   
-   margin: 2px;
-  
-} 
+  width: 235px;
 
-
+  margin: 2px;
+}
 
 img.cinqueterre {
- margin-left: 5px;
- padding: 10px;
- padding-top:3px;
-
-
- 
+  margin-left: 5px;
+  padding: 10px;
+  padding-top: 3px;
 }
-   
-  
-section > h1{
+
+section > h1 {
   width: 100%;
   margin-left: 30px;
-  padding:5px;
+  padding: 5px;
 }
 section > p {
   width: 100%;
   margin-left: 30px;
-  padding:5px;
+  padding: 5px;
 }
-.cards{
+.cards {
   display: flex;
   flex-direction: row;
-
 }
 .ocean_card {
   width: 480px;
   height: 350px;
   background-color: #fff;
-  margin-left:25px;
- 
+  margin-left: 25px;
 }
 .mountains_card {
   width: 480px;
   height: 350px;
   background-color: #fff;
-  margin-left:12px;
+  margin-left: 12px;
 }
 .img_card {
-  background: url('./images/ocean.jpg') center/cover;
+  background: url("./images/ocean.jpg") center/cover;
   height: 200px;
-  width:480px;
+  width: 480px;
 }
-.img_card2{
-  background: url('./images/mountains.jpg') center/cover;
+.img_card2 {
+  background: url("./images/mountains.jpg") center/cover;
   height: 200px;
-  width:480px;
-
+  width: 480px;
 }
 .title_card {
   text-align: left;
   padding: 10px;
-  font-size:15px;
- 
+  font-size: 15px;
 }
 .title_card > p {
   padding-top: 15px;
-  text-align:left;
-  color:#aeb0b6
+  text-align: left;
+  color: #aeb0b6;
 }
-
 
 .txt_card > p {
-text-align: left;
-padding: 10px;
-
+  text-align: left;
+  padding: 10px;
 }
 a {
-  margin-left :20px;
+  margin-left: 20px;
   font-size: 14px;
   text-decoration: none;
   color: #363b48;
 }
 .news {
   width: 973px;
-  height:200px;
+  height: 200px;
   margin-left: 25px;
-  margin-top: 20px;;
+  margin-top: 20px;
   padding: 10px;
   background-color: #595a5e;
   color: #fff;
   padding-left: 20px;
- 
- 
 }
-.news h3{
-  padding:5px;
-  margin-top:10px;
-  font-size:22px;
+.news h3 {
+  padding: 5px;
+  margin-top: 10px;
+  font-size: 22px;
 }
 .news p {
-  padding:5px;
-  font-size:12px;
+  padding: 5px;
+  font-size: 12px;
 }
-.news input{
-  width:95%;
-  height:30px;
+.news input {
+  width: 95%;
+  height: 30px;
   display: flex;
   direction: column;
   margin-left: 5px;
-  margin-top:5px;
-  
-
-    
-   
+  margin-top: 5px;
 }
 .news button {
-  width:60px;
-  font-size:12px;
+  width: 60px;
+  font-size: 12px;
   margin-top: 10px;
   background-color: #e54e43;
   text-decoration: none;
-  
-  
 }
-.news label{
+.news label {
   margin-left: 5px;
   padding: 2px;
-  font-size:12px;
+  font-size: 12px;
 }
 .cont_inp {
   height: 135px;
   width: 980px;
   padding-top: 10px;
-  margin-left:25px;
- 
+  margin-left: 25px;
 
-  display:flex;
-  flex-direction:column;
-
+  display: flex;
+  flex-direction: column;
 }
 .cont_inp input {
   height: 30px;
-  width:960px;
-  margin:5px;
-  
+  width: 960px;
+  margin: 5px;
 }
-div.cont_btn{
-  width:150px;
-  height:50px;
-  
-  margin-left:23px;
-  padding-left:5px;
+div.cont_btn {
+  width: 150px;
+  height: 50px;
 
-
+  margin-left: 23px;
+  padding-left: 5px;
 }
-footer{
-  text-align:center;
- 
+footer {
+  text-align: center;
 }
-footer h1, p {
-   font-size:12px;
+footer h1,
+p {
+  font-size: 12px;
 }
-
-
-
-
-
-
-
-
-
-
-

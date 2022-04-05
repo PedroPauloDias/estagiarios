@@ -1,168 +1,159 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-  <meta charset="UTF-8">
- 
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
 
-  <link rel="stylesheet" href="style.css">
-  <title>Hotel</title>
-</head>
-<body>
-  
-   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-
-
- <header>
-  <nav >
-    <div>
-      <img src="./images/logo.png" alt="logo">
-      <img src="./images/transferir.png" alt="icone de busca">
-    </div>
-  </nav>
-
- <div class="img_header">
- 
- <div class="nav_tabs">
-  <ul>
-    <li>
-      <input type="radio" name="tabs" class="rd_tabs" id="tab1" checked >
-      <label for="tab1">Flight</label>
-      <div class="content">
-      
-           <h2>Travel the world with us</h2>
-           <div class="flight">
-          <div class="inp_from">
-            <label for="from">From</label>
-            <input type="text" placeholder="Departing from" id="from">
-          </div>
-          <div class="inp_from">
-            <label for="at">To</label>
-            <input type="text" placeholder="Arriving at" id="at">
-          </div>
-            
+    <link rel="stylesheet" href="style.css" />
+    <title>Hotel</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div>
+          <img src="./images/logo.png" alt="logo" />
+          <img src="./images/transferir.png" alt="icone de busca" />
         </div>
-        <button>Search and find dates</button>
+      </nav>
 
+      <div class="img_header">
+        <div class="nav_tabs">
+          <ul>
+            <li>
+              <input
+                type="radio"
+                name="tabs"
+                class="rd_tabs"
+                id="tab1"
+                checked
+              />
+              <label for="tab1">Flight</label>
+              <div class="content">
+                <h2>Travel the world with us</h2>
+                <div class="flight">
+                  <div class="inp_from">
+                    <label for="from">From</label>
+                    <input type="text" placeholder="Departing from" id="from" />
+                  </div>
+                  <div class="inp_from">
+                    <label for="at">To</label>
+                    <input type="text" placeholder="Arriving at" id="at" />
+                  </div>
+                </div>
+                <button>Search and find dates</button>
+              </div>
+            </li>
+            <li>
+              <input type="radio" name="tabs" class="rd_tabs" id="tab2" />
+              <label for="tab2">Hotel</label>
+              <div class="content"></div>
+            </li>
+            <li>
+              <input type="radio" name="tabs" class="rd_tabs" id="tab3" />
+              <label for="tab3">travel</label>
+              <div class="content"></div>
+            </li>
+          </ul>
+        </div>
       </div>
-      
-    </li>
-    <li>
-      <input type="radio" name="tabs" class="rd_tabs" id="tab2" >
-      <label for="tab2">Hotel</label>
-      <div class="content"></div>
-    </li>
-    <li>
-      <input type="radio" name="tabs" class="rd_tabs" id="tab3" >
-      <label for="tab3">travel</label>
-      <div class="content"></div>
-    </li>
-  </ul>
-  
-</div>
-</div>
- 
+    </header>
 
-
-</header>
-  
-  <main>
-    <section >
-      <h1> Good Offers Right Now </h1>
-      <p>up to <span>50%</span>discount</p>
-      <div class="cities">
-        <div class="cities2" >
-              <img src="./images/cinqueterre.jpg" alt="foto de cinqueterre" class="cinqueterre" >
-        
-           </div>
-            <div class="cities2">
-              <img src="./images/newyork.jpg" alt="foto de newyork" class="cities2" >
-              <img src="./images/sanfran.jpg" alt="foto de san francisco" class="cities2">
-              <img src="./images/pisa.jpg" alt="foto de pisa" class="cities2">
-              <img src="./images/paris.jpg" alt="foto de paris" class="cities2">
-            </div>
-      </div>
-        
-    
-
-    </section>
-    <section  >
-      <h1>explore nature</h1>
-      <p>travel with us and see nature at its finest</p>
+    <main>
+      <section>
+        <h1>Good Offers Right Now</h1>
+        <p>up to <span>50%</span>discount</p>
+        <div class="cities">
+          <div class="cities2">
+            <img
+              src="./images/cinqueterre.jpg"
+              alt="foto de cinqueterre"
+              class="cinqueterre"
+            />
+          </div>
+          <div class="cities2">
+            <img
+              src="./images/newyork.jpg"
+              alt="foto de newyork"
+              class="cities2"
+            />
+            <img
+              src="./images/sanfran.jpg"
+              alt="foto de san francisco"
+              class="cities2"
+            />
+            <img src="./images/pisa.jpg" alt="foto de pisa" class="cities2" />
+            <img src="./images/paris.jpg" alt="foto de paris" class="cities2" />
+          </div>
+        </div>
+      </section>
+      <section>
+        <h1>explore nature</h1>
+        <p>travel with us and see nature at its finest</p>
         <div class="cards">
           <div class="ocean_card">
-          <div class="img_card"></div>
-          <div class="title_card">
-            <h2>West Coast, Norway</h2>
-            <p>Roundtrip from $79</p>
+            <div class="img_card"></div>
+            <div class="title_card">
+              <h2>West Coast, Norway</h2>
+              <p>Roundtrip from $79</p>
+            </div>
+            <div class="txt_card">
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+            </div>
+            <a href="#">Buy Tickets</a>
           </div>
-          <div class="txt_card">
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+          <div class="mountains_card">
+            <div class="img_card2"></div>
+            <div class="title_card">
+              <h2>Mountains, Austria</h2>
+              <p>One-Way from $39</p>
+            </div>
+            <div class="txt_card">
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+            </div>
+            <a href="#">Buy Tickets</a>
           </div>
-          <a href="#">Buy Tickets</a>
-          
-          </div>
-           <div class="mountains_card">
-           <div class="img_card2"></div>
-           <div class="title_card">
-             <h2>Mountains, Austria</h2>
-             <p>One-Way from $39</p>
-           </div>
-           <div class="txt_card">
-             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-           </div>
-           <a href="#">Buy Tickets</a>
-                </div>
         </div>
-      <section>
-      
-    </section>
-       <div class="news">
-         <h3>Get the best offers first!</h3>
+        <section></section>
+        <div class="news">
+          <h3>Get the best offers first!</h3>
           <p>Join our newsletter</p>
-    
-            <label for ="search">E-mail</label>
-            <input type="search" id="search" placeholder="Your Email address">
-            <button>Subscribe</button>
-          
-       </div>
-    </section>
 
-    <section>
-      <h1>Contact</h1>
-      <p>Let us your next trip</p>
-      <p>Chicago, USA</p>
-      <p>Phone *00 151515</p>
-      <p>Email: mail@mail.com</p>
-      <div class="cont_inp">
-        <div >
-          <div>
-            <input type="text" name="text" id="name" placeholder="Name">
-          </div>
-          <div>
-            <input type="text" name="email" id="email" placeholder="Email">
-          </div>
-          <div>
-            <input type="text" name="msg" id="msg" placeholder="Message">
-          </div>
-
+          <label for="search">E-mail</label>
+          <input type="search" id="search" placeholder="Your Email address" />
+          <button>Subscribe</button>
         </div>
-      </div>
-      <div class="cont_btn">
-        <button >SEND MESSAGE</button>
-      </div>
-    </section>
+      </section>
 
-  </main>
+      <section>
+        <h1>Contact</h1>
+        <p>Let us your next trip</p>
+        <p>Chicago, USA</p>
+        <p>Phone *00 151515</p>
+        <p>Email: mail@mail.com</p>
+        <div class="cont_inp">
+          <div>
+            <div>
+              <input type="text" name="text" id="name" placeholder="Name" />
+            </div>
+            <div>
+              <input type="text" name="email" id="email" placeholder="Email" />
+            </div>
+            <div>
+              <input type="text" name="msg" id="msg" placeholder="Message" />
+            </div>
+          </div>
+        </div>
+        <div class="cont_btn">
+          <button>SEND MESSAGE</button>
+        </div>
+      </section>
+    </main>
 
-  <footer>
-<h1>Find Us On</h1>
+    <footer>
+      <h1>Find Us On</h1>
 
-
-
-<p>Powered by Pedro</p>
-  </footer>
-  
-</body>
+      <p>Powered by Pedro</p>
+    </footer>
+  </body>
 </html>
